@@ -12,6 +12,49 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor3);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: var(--branco);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
+}
+
+section#login > section#imagem {
+    display: block;
+    background: var(--cor3) url(../imagens/imagem.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+section#formulario {
+    display: block;
+    padding: 10px;
+}
+
+section#formulario > p {
+    margin-top: 10px;
+    text-align: left;
+}
