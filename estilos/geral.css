@@ -63,3 +63,61 @@ section#login > section#formulario > p {
     font-size: .8em;
 }
 
+form > div.campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 30px;
+
+    background-color: var(--cor2);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor3);
+    transition: .3s;
+}
+
+form > a {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 30px;
+    margin-top: 5px;
+    background-color: var(--branco);
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid var(--cor3);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+form > a > .material-symbols-outlined {
+    font-size: .8em;
+    font-weight: bold;
+}
+
+form > a:hover {
+    background-color: var(--cor3);
+    transition: .3s;
+    color: var(--branco);
+}
