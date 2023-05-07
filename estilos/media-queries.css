@@ -53,4 +53,8 @@
         width: 50%;
         height: 100%;
     }
+
+    section#formulario > p {
+        font-size: 1em;
+    }
 }
